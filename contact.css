@@ -1,0 +1,45 @@
+.contact-body {
+  width: 50%;
+}
+h2 {
+  margin: 2rem 0;
+}
+.enq {
+  margin: 4rem 0;
+}
+label {
+  text-align: justify;
+}
+input {
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.page {
+  margin: 1rem 0;
+}
+.btn {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  width: 20%;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+.socios {
+  margin: 3rem 0;
+}
+.socio li {
+  margin: 1rem 0;
+}
+.socio a {
+  color: #000;
+}
+.socio a:hover {
+  color: gold;
+  transition-duration: 0.3s;
+}

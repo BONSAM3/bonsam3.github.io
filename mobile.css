@@ -1,0 +1,76 @@
+@media (max-width: 700px) {
+  .journal-img {
+    width: 85%;
+  }
+  .about-header {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .about-img {
+    width: 100%;
+  }
+  .contact-body {
+    width: 100%;
+  }
+  .nav-toggle {
+    display: block;
+    transition: 0.5s;
+  }
+  .menu-bar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nav-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 0 3rem;
+    display: none;
+  }
+
+  .show-links {
+    display: flex;
+  }
+}
+
+@media (max-width: 650px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lag {
+    font-size: 1rem;
+  }
+  a.active,
+  a:hover {
+    background-color: gainsboro;
+    transition: 0.5s;
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .contact-body {
+    width: 100%;
+  }
+}
+@media (max-width: 410px) {
+  .contact-body {
+    width: 100%;
+  }
+  input {
+    width: 70%;
+  }
+  #text {
+    width: 40%;
+  }
+  .about-img {
+    width: 100%;
+  }
+}
